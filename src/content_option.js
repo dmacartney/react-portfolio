@@ -5,13 +5,13 @@ const meta = {
 };
 
 const introdata = {
-    title: "Hi, I'm David Macartney",
+    title: "Hey, I'm David Macartney",
     animated: {
-        first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
+        first: "a full stack software engineer",
+        second: "an automation aficionado",
+        third: "a middleware magician",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
+    description: "Welcome to my site! Feel free to poke around to learn more about me.",
     your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
 };
 

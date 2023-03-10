@@ -20,9 +20,8 @@ const Headermain = () => {
     <>
       <header className="fixed-top site__header">
         <div className="d-flex align-items-center justify-content-between">
-          {/* <SlHome></SlHome> */}
           <Link  className="navbar-brand nav_ac" to="/">
-            {logotext}
+            <SlHome size={25} />
           </Link>
           <div className="d-flex align-items-center">
           <Themetoggle />
