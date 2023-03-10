@@ -34,6 +34,7 @@ export const Home = () => {
                       autoStart: true,
                       loop: true,
                       deleteSpeed: 10,
+                      delay: 60,
                     }}
                   />
                 </h1>
