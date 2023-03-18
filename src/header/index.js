@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import "./style.css";
 import { VscGrabber, VscClose } from "react-icons/vsc";
 import { Link } from "react-router-dom";
@@ -10,11 +11,20 @@ import Themetoggle from "../components/themetoggle";
 
 const Headermain = () => {
   const [isActive, setActive] = useState("false");
+  // const history = useNavigate();
 
   const handleToggle = () => {
     setActive(!isActive);
     document.body.classList.toggle("ovhidden");
   };
+
+  // useEffect(() => {
+  //   const nextRoute = getNextRoute(history);
+  //   if (nextRoute) {
+  //     window.scrollTo({ top: 0, behavior: "smooth" });
+  //     history.push(nextRoute);
+  //   }
+  // }, [history]);
 
   return (
     <>
@@ -68,5 +78,12 @@ const Headermain = () => {
     </>
   );
 };
+
+// function getNextRoute(history) {
+//   const routes = history.state;
+//   const currentRouteIndex = history.index;
+//   const nextRoute = routes[currentRouteIndex + 1];
+//   return nextRoute ? nextRoute.pathname : null;
+// }
 
 export default Headermain;

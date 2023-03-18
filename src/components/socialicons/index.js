@@ -22,7 +22,7 @@ export const Socialicons = (params) => {
           </li>
         )}
       </ul>
-      <p>Connect</p>
+      <p>Connect with Me</p>
     </div>
   );
 };

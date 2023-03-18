@@ -1,6 +1,7 @@
 import React from "react";
 import "./style.css";
 import me_background3 from "../../assets/images/me_background3.jpg"
+import pattern from "../../assets/images/pattern.jpg"
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import Typewriter from "typewriter-effect";
 import { introdata, meta } from "../../content_option";
@@ -18,6 +19,7 @@ export const Home = () => {
         <div className="intro_sec d-block d-lg-flex align-items-center">
           <div className="h_bg-image order-lg-2 ">
             <img src={me_background3} alt="Me" className="background_image"/>
+            <img src={pattern} alt="pattern" className="background_image"/>
           </div>
           <div className="text order-2 order-lg-1 h-100 d-lg-flex justify-content-center">
             <div className="align-self-center ">

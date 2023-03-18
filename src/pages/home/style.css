@@ -64,7 +64,7 @@ section {
 .intro_sec .intro .feature .wrap-icon {
     background: 0 0!important;
     width: auto;
-    height: auto;
+    /* height: auto; */
     margin-bottom: 0;
 }
 
@@ -226,4 +226,6 @@ section {
     max-height: 100vh;
     justify-content: flex-end;
     align-items: center;
+    height: 1000px;
+    box-sizing: border-box;
 }
