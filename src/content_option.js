@@ -1,7 +1,7 @@
 const logotext = "Home";
 const meta = {
     title: "Hi! I'm David",
-    description: "I’m David Macartney data scientist _ Full stack devloper,currently working in Berlin",
+    description: "Engineer, motorcyclist, gamer, and lifter",
 };
 
 const introdata = {
@@ -12,27 +12,26 @@ const introdata = {
         third: "a middleware magician",
     },
     description: "Welcome to my site! Feel free to poke around to learn more about me.",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
 };
 
 const dataabout = {
-    title: "abit about my self",
+    title: "Who am I?",
     aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
 };
 const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
+        jobtitle: "Full stack software engineer",
+        where: "Nexxis Solutions",
+        date: "2021-present",
     },
     {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
+        jobtitle: "Back-end software engineer",
+        where: "Booz Allen Hamilton",
+        date: "2018-2021",
     },
     {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
+        jobtitle: "Jack of all trades tech intern",
+        where: "Broadview Networks, CardConnect, and Booz Allen Hamilton",
+        date: "2016-2018",
     },
 ];
 
@@ -41,97 +40,30 @@ const skills = [{
         value: 90,
     },
     {
-        name: "Djano",
-        value: 85,
+        name: "JavaScript",
+        value: 75,
     },
     {
-        name: "Javascript",
-        value: 80,
+        name: "Java",
+        value: 65,
     },
     {
-        name: "React",
+        name: "Go",
         value: 60,
-    },
-    {
-        name: "Jquery",
-        value: 85,
     },
 ];
 
 const services = [{
-        title: "UI & UX Design",
+        title: "Motorcycles",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
     },
     {
-        title: "Mobile Apps",
+        title: "Gaming",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
     },
     {
-        title: "Wordpress Design",
+        title: "Exercise",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
-];
-
-const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/800/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/550/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
     },
 ];
 
@@ -147,15 +79,11 @@ const contactConfig = {
 };
 
 const socialprofils = {
-    github: "https://github.com",
-    facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com",
+    linkedin: "https://www.linkedin.com/in/david-m-23a685105/",
 };
 export {
     meta,
     dataabout,
-    dataportfolio,
     worktimeline,
     skills,
     services,

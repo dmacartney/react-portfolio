@@ -16,16 +16,6 @@ section {
     color: var(--primary-color);
 }
 
-.btn-portfolio {
-    background: var(--primary-color);
-    border-radius: 0;
-}
-
-.btn-portfolio a {
-    color: #000;
-    text-decoration: none;
-}
-
 .btn-about a {
     color: var(--text-color);
     text-decoration: none;
@@ -42,6 +32,7 @@ section {
     .intro_sec {
         display: block;
         height: auto!important;
+        overflow: hidden;
     }
 }
 
@@ -79,6 +70,7 @@ section {
 
 .intro_sec .intro .feature .wrap-icon svg {
     color: #5cccc9;
+    cursor: pointer;
 }
 
 .intro_sec .text h1 {
@@ -230,6 +222,8 @@ section {
     color: var(--text-color)
 }
 
-.intro_sec .h_bg-image {
-    filter: saturate(0.5);
+.background_image {
+    max-height: 100vh;
+    justify-content: flex-end;
+    align-items: center;
 }
